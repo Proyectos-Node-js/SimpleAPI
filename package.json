@@ -1,0 +1,28 @@
+{
+  "name": "simpleapi",
+  "version": "1.0.0",
+  "description": "Se crea un api con un directorio de música, donde se usa los métodos HTTP básicos GET,POST,PUT,DELET",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proyectos-Node-js/SimpleAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Proyectos-Node-js/SimpleAPI/issues"
+  },
+  "homepage": "https://github.com/Proyectos-Node-js/SimpleAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-promise-router": "^4.1.1",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
